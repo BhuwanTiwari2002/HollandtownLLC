@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    color: white;   
+}
+/* Making the list float on the right*/
+nav li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* This is the leftside logo, giving it a border and border radius */
+.left-side .logo {
+  border-radius: 10px;
+  border: 0px solid black; /* Giving it a 0 because the other img tag has a border so resetting it to 0 for the logo */
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #009B00;
+  color: white;
+}
+
+
+/* Front page main */
+.front-page-main h1{
+  text-align: center;
+  margin-top: 90px;
+}
+
+/* Front page main */
+.front-page-main h2{
+  text-align: center;
+  margin-top: 10px;
+}
