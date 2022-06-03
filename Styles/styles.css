@@ -20,7 +20,7 @@ nav li {
 li a {
   display: block;
   color: white;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -31,14 +31,19 @@ nav ul img {
   margin-top: 4px;
 }
 
+.bp-logo {
+  float: left;
+  margin-left: 4%;
+}
+
 .amoco-logo {
   float: left;
-  margin-left: 5px;
+  margin-left: 2%;
   margin-top: 14px;
 }
 .shell-logo {
   float: left;
-  margin-left: 7px;
+  margin-left: 2%;
   margin-top: 12px;
 }
 nav ul h1 {
@@ -64,7 +69,6 @@ li a:hover {
   font-size: 15px;
 }
 
-
 /* Front page main */
 .front-page-main h1{
   text-align: center;
@@ -86,4 +90,56 @@ li a:hover {
   margin-left: 50px;
   display: flex;
   justify-content: space-evenly;
+}
+.our-story-section
+{
+  text-align: center;
+  margin-top: 3%;
+}
+.our-story-section h2{
+  color: #7fa9ae;
+}
+.our-story-section h5{
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  opacity: 0.8;
+}
+.contact h3 {
+  color: #7fa9ae;
+  opacity: 1;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  ul img
+  {
+    visibility: hidden;  
+  }
+  .our-story-section h5
+  {
+    width: 60%;
+  }
+  body 
+  {
+    overflow-x: hidden;
+  }
+  .firstline-stores
+  {
+    flex-direction: column;
+  }
+  .secondline-stores
+  {
+    flex-direction: column;
+  }
+ 
 }
