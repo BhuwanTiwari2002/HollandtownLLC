@@ -10,8 +10,10 @@ ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #212529;
-    color: white;   
+}
+nav {
+  background-color: #03C04A;
+  opacity: 0.8;
 }
 /* Making the list float on the right*/
 nav li {
@@ -19,39 +21,20 @@ nav li {
 }
 li a {
   display: block;
-  color: white;
+  color: black;
   padding: 20px 16px;
   text-decoration: none;
   font-size: 20px;
 }
-nav ul img {
-  float: left;
-  margin-left: 50px;
-  color: #009B00;
-  margin-top: 4px;
-}
 
-.bp-logo {
-  float: left;
-  margin-left: 4%;
-}
 
-.amoco-logo {
-  float: left;
-  margin-left: 2%;
-  margin-top: 14px;
-}
-.shell-logo {
-  float: left;
-  margin-left: 2%;
-  margin-top: 12px;
-}
+
 nav ul h1 {
   float: left;
   font-size: 24px;
-  margin-left: 5px;
-  margin-top: 16px;
-  color: white;
+  margin-left: 5%;
+  margin-top: 20px;
+  color: black;
 }
 /* This is the leftside logo, giving it a border and border radius */
 .left-side .logo {
@@ -60,9 +43,9 @@ nav ul h1 {
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  color: white;
-  border-bottom: 5px solid #009B00;
-  margin-top: -5px;
+  color: black;
+  border-bottom: 2px solid black;
+  margin-top: -4px;
 }
 
 .offerList {
@@ -72,7 +55,6 @@ li a:hover {
 /* Front page main */
 .front-page-main h1{
   text-align: center;
-  margin-top: 50px;
 }
 
 /* Front page main */
@@ -120,11 +102,8 @@ li a:hover {
 
 
 
-@media screen and (max-width: 500px) {
-  ul img
-  {
-    visibility: hidden;  
-  }
+@media screen and (max-width: 1200px) {
+
   .our-story-section h5
   {
     width: 60%;
@@ -136,10 +115,12 @@ li a:hover {
   .firstline-stores
   {
     flex-direction: column;
+    align-items: center;
   }
   .secondline-stores
   {
     flex-direction: column;
+    align-items: center;
   }
  
 }
