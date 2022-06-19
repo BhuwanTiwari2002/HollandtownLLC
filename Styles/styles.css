@@ -27,8 +27,6 @@ li a {
   font-size: 20px;
 }
 
-
-
 nav ul h1 {
   float: left;
   font-size: 24px;
@@ -44,7 +42,7 @@ nav ul h1 {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   color: black;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
   margin-top: -4px;
 }
 
@@ -100,9 +98,42 @@ li a:hover {
 }
 
 
-
+.hollandtown-logo
+{
+  margin-top: 0.5%;
+  margin-left: 5%;
+  
+}
+.img-responsive {
+  width: 100%;
+}
+.img-responsive img
+{
+  max-width: 100%;
+  height: auto;
+}
+.Family-owned
+{
+  margin-top: -1%;
+  background-color: #03C04A;
+  height: 100px;
+  overflow: hidden;
+}
+.Family-owned h1 
+{
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  width: 70%;
+}
 
 @media screen and (max-width: 1200px) {
+  .hollandtown-logo
+  {
+    display: none;
+  }
+
 
   .our-story-section h5
   {
