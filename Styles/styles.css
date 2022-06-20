@@ -49,12 +49,20 @@ h2 {
   font-weight: bold;
   font-size: 35px;
 }
+
+li{
+  text-align: center;
+  text-decoration: none;
+}
+
+h4{
+  text-align: center;
+}
 /* This is the leftside logo, giving it a border and border radius */
 .left-side .logo {
   border-radius: 10px;
   border: 0px solid black; /* Giving it a 0 because the other img tag has a border so resetting it to 0 for the logo */
 }
-
 
 .offerList {
   font-size: 15px;
@@ -108,8 +116,6 @@ h2 {
   margin-bottom: 5%;
   opacity: 0.8;
 }
-
-
 
 .hollandtown-logo
 {
@@ -165,7 +171,7 @@ h2 {
 {
   width: 15%;
 }
-.hiringpage h4
+#hiringpage h4
 {
   margin: auto;
   text-align: center;
@@ -174,18 +180,30 @@ h2 {
   width: 70%;
 }
 
-.hiringpage li{
-  text-align: center;
-  text-decoration: none;
+#hiringimg img{
+  width: 30%;
+  border: black 3px solid;  
+  border-radius: 5%;
 }
+
+#hiringimg h1{
+  text-align: center;
+}
+#hiringimg p
+{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
 
 @media screen and (max-width: 1200px) {
   .hollandtown-logo
   {
     display: none;
   }
-
-
   .our-story-section h5
   {
     width: 60%;
