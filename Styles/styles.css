@@ -1,6 +1,5 @@
 * {
     font-family: Verdana, Tahoma, sans-serif;
-   
 }
 body {
   background-color: white;
@@ -34,11 +33,7 @@ nav ul h1 {
   margin-top: 20px;
   color: black;
 }
-/* This is the leftside logo, giving it a border and border radius */
-.left-side .logo {
-  border-radius: 10px;
-  border: 0px solid black; /* Giving it a 0 because the other img tag has a border so resetting it to 0 for the logo */
-}
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   color: black;
@@ -46,6 +41,19 @@ li a:hover {
   margin-top: -4px;
 }
 
+h2 {
+  font-size: x-large;
+  text-align: center;
+  opacity: 80%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+/* This is the leftside logo, giving it a border and border radius */
+.left-side .logo {
+  border-radius: 10px;
+  border: 0px solid black; /* Giving it a 0 because the other img tag has a border so resetting it to 0 for the logo */
+}
 
 
 .offerList {
@@ -100,10 +108,7 @@ li a:hover {
   margin-bottom: 5%;
   opacity: 0.8;
 }
-.contact h3 {
-  color: #7fa9ae;
-  opacity: 1;
-}
+
 
 
 .hollandtown-logo
@@ -136,12 +141,30 @@ li a:hover {
   width: 70%;
 }
 
-.BPrewards
+.Rewards
 {
+  text-align: center;
 }
-.BPrewards img
+.Rewards h3{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.Rewards h5{
+  margin-top: 30px;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+#logo {
+  width: 4%;
+}
+
+.Rewards img
 {
-  width: 5%;
+  width: 15%;
+
 }
 
 @media screen and (max-width: 1200px) {
