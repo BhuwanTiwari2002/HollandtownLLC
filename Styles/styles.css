@@ -164,7 +164,19 @@ h2 {
 .Rewards img
 {
   width: 15%;
+}
+.hiringpage h4
+{
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  width: 70%;
+}
 
+.hiringpage li{
+  text-align: center;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
